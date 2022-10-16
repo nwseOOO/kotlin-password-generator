@@ -3,7 +3,7 @@ package pl.nwse.passwordgenerator
 import org.apache.commons.lang3.RandomStringUtils
 import java.security.SecureRandom
 
-class PasswordGenerator {
+object PasswordGenerator {
 
     private val letters : String = "abcdefghijklmnopqrstuvwxyz"
     private val numbers : String = "1234567890"
